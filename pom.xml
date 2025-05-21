@@ -122,10 +122,8 @@
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                      <configuration>
-    <testFailureIgnore>true</testFailureIgnore>
-  </configuration>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                     
             </plugin>
 
                  <plugin>
